@@ -1,0 +1,24 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+a:link{
+    text-decoration: none;
+    color: black;
+  }
+.nav{
+    background-color: #900C3F ;
+    color: white;
+    height: 70px;
+  }
+.line{
+    font-family: cursive; 
+    padding-bottom: 50px;
+}
+.buttons{
+  color: white;
+  background-color: #900C3F;
+  padding: 15px 32px;
+  margin: 2%;
+}
