@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>ImageConvertor</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <span class="navbar-brand mb-0 h1" style="font-size: 2em;">Welcome!</span>
+    </nav>
+    <h1 style="text-align: center; padding-top: 10px;">Image convertor WebApp</h1>
+    <div style="padding: 30px; margin: auto; text-align: center;">
+      <p><h3 class="line">Upload a colorful picture of yours and we'll transform it into anything you like. Try it!</h3></p>
+    <form method=post enctype=multipart/form-data>
+      <input type=file name=file><br><br><br>
+      <button class="buttons" type="submit" formaction="/upload1">Pencil Sketch</button>
+      <button class="buttons" type="submit" formaction="/upload2">Watercolor painting</button>
+      <button class="buttons" type="submit" formaction="/upload3">Vector art</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <p>*Make sure your image is in .jpg/.jpeg/.png format only*</p>
+
+      </div>
+  </body>
+</html>

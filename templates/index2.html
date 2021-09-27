@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>ImageConvertor</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <span class="navbar-brand mb-0 h1" style="font-size: 2em;">Welcome!</span>
+    </nav>
+    <h1 style="text-align: center; padding: 15px;">Image Convertor WebApp</h1>
+
+    <div style="padding: 30px;">
+        {{"Your piece of art is ready!! Hope you like it.."}}
+        <form action="/" method="POST" style="float: right;" >
+          <button><a href="/static/uploads/new.png" download>Download</a></button>
+          <input type="submit" value="Go Back">
+        </form>
+        <br>
+        <br>
+        <div style="border: 3px solid black; padding: 10px;">
+            <img src="{{ user_image }}" width="50%">
+        </div>
+
+      </div>
+  </body>
+</html>
