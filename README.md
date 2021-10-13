@@ -1,7 +1,8 @@
 # Image-Convertor : [Video link](https://drive.google.com/file/d/1DaMyNokZWI9tmwGxnCregFGgdbA65lbk/view?usp=sharing)
-
-How the website looks<br>
-It gives you the option to select a file from your pc and gives you three options/filters to choose from<br>
+<b>AIM</b><br>
+This application aims to let users feed in any picture from their device and convert it into any of the three options of <b>pencil sketch, water color painting or vector art illustration</b>. It also lets user <b>download</b> this new image to their devices.<br><br>
+How the website looks<br><br>
+INDEX PAGE<br><br>
 ![image1](https://github.com/rachita11/Image-Convertor/blob/main/Images/1.png)<br>
 Let this be the first image we feed in to conver into a <b>pencil sketch</b>
 ![image1](https://github.com/rachita11/Image-Convertor/blob/main/Images/deer.jpg)<br><br>
